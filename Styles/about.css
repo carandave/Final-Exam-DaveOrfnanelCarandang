@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    height: 35px;
+    background-color: white;
+    width: 100%;
+    padding: 0 160px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 14px; 
+    transition: 1s;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #BB9065;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(/images/Types\ Of\ Visuals\ Every\ ECommerce\ Brand\ Needs\ -\ Depositphotos\ Blog.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    background-color: #f4f1e0;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #BB9065;
+}
+
+
+.header-content p{
+    text-align: center;
+    color: #304146;
+    margin-bottom: 20px;
+}
+
+.header-content a{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #BB9065;
+    text-align: center;
+    color: #f4f1e0;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.header-content a:hover{
+    background-color: #815b34;
+}
+
+.first-section{
+    height: 600px;
+    background-color: ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-section .container-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.first-section .container-box h1{
+    text-align: center;
+    color: #f14c38;
+    margin-bottom: 20px;
+}
+
+.first-section .container-box p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.second-section{
+    height: 400px;
+    background-color: #f4f1e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.values-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    width: 100%;
+    padding: 50px;
+    gap: 20px;
+}
+
+.values-container h1{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.values-container p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #304146;
+    height: 320px;
+    width: 100%;
+    color: #bebebe;
+    padding-top: 50px;
+}
+
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    text-align: center;
+}
+
+.footer-container .footer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .header-footer{
+    font-size: 18px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+

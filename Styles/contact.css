@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    height: 35px;
+    background-color: white;
+    width: 100%;
+    padding: 0 160px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 14px; 
+    transition: 1s;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #BB9065;
+}
+
+.header-content{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BB9065;
+    width: 100%;
+}
+
+.header-content h1{
+    font-size: 54px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #f4f1e0;
+}
+
+.header-content .search{
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.first-section{
+    padding-top: 50px;
+    height: 600px;
+    background-color: #f4f1e0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: cener;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.contact-container .box{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e6c97d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    outline: none;
+    box-shadow: 4px 7px 16px -5px rgba(0,0,0,0.44);
+-webkit-box-shadow: 4px 7px 16px -5px rgba(0,0,0,0.44);
+-moz-box-shadow: 4px 7px 16px -5px rgba(0,0,0,0.44);
+}
+
+.contact-container .box .icon-content i{
+    font-size: 40px;
+    color: #f14c38;
+}
+
+.contact-container .box .desc-content h3{
+    font-size: 20px;
+    color: #815b34;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.cus-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.cus-service a{
+    text-decoration: none;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    background-color: #f14c38;
+    color: #f4f1e0;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.cus-service a:hover{
+    background-color: #882c22;
+}
+
+.footer{
+    background-color: #304146;
+    height: 320px;
+    width: 100%;
+    color: #bebebe;
+    padding-top: 50px;
+}
+
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    text-align: center;
+}
+
+.footer-container .footer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .header-footer{
+    font-size: 18px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}

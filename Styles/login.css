@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f1e0;
+}
+
+.main-container .container{
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #BB9065;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+-webkit-box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+-moz-box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+}
+
+.main-container .container h1{
+    transform: translateY(-60px);
+    font-size: 32px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.container .input-container{
+    transform: translateY(-30px);
+}
+
+.container .input-container p{
+    font-size: 12px;
+    color: #f4f1e0;
+    margin-bottom: 5px;
+}
+
+.container .input-container p a{
+    font-size: 12px;
+    color: #f4f1e0;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.container .input-container input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f4f1e0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.container .login-anchor{
+    padding: 8px 20px;
+    background-color: #BB9065;
+    border: none;
+    box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+-webkit-box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+-moz-box-shadow: -1px 13px 165px 20px rgba(0,0,0,0.86);
+    border-radius: 20px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container .login-anchor:hover{
+    background-color: #663f18;
+}
